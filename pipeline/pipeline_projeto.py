@@ -61,11 +61,12 @@ def transform(df):
     return df_titulo, df_movimentacao
 
 def load(df_titulo, df_movimentacao):
-    user = os.getenv("POSTGRES_USER")
-    password = os.getenv("POSTGRES_PASSWORD")
-    host = os.getenv("POSTGRES_HOST")
-    port = os.getenv("POSTGRES_PORT")
-    dbname = os.getenv("POSTGRES_DB")
+    user = os.getenv("AIRFLOW_DB_USER")
+    password = os.getenv("AIRFLOW_DB_PASSWORD")
+    host = os.getenv("AIRFLOW_DB_HOST")
+    port = os.getenv("AIRFLOW_DB_PORT")
+    dbname = os.getenv("TESOURO_DB_NAME")
+
 
     if not all([user, password, host, port, dbname]):
         raise ValueError("Variaveis não indentificadas")
