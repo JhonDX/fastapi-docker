@@ -113,7 +113,7 @@ Certifique-se de que o banco esteja criado e configurado corretamente no ambient
 
 ### 3️⃣ Suba os containers
 
-- docker compose up --build
+- docker compose up -d
 
 ### 4️⃣ Acesse o Airflow
 - http://localhost:8080
