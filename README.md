@@ -15,7 +15,7 @@ Este projeto implementa um pipeline completo de Engenharia de Dados responsável
 - Automatizados  
 - Orquestrados  
 
-Tudo isso em ambiente containerizado e reprodutível.
+### Tudo isso em ambiente containerizado e reprodutível.
 
 ---
 
@@ -47,7 +47,6 @@ Os dados públicos do Tesouro Direto são disponibilizados em múltiplos arquivo
 - Orquestração via Airflow
 - ↓
 - Ambiente Containerizado
-
 
 ---
 
