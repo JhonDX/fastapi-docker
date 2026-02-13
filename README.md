@@ -7,7 +7,7 @@
 
 Este projeto implementa um pipeline completo de Engenharia de Dados responsável por consolidar, transformar e estruturar dados públicos do **Tesouro Direto**, automatizando todo o fluxo de ingestão até a carga final em banco relacional.
 
-A solução simula um cenário real de mercado onde múltiplos arquivos CSV precisam ser:
+### A solução simula um cenário real de mercado onde múltiplos arquivos CSV precisam ser:
 
 - Consolidados  
 - Padronizados  
@@ -23,7 +23,7 @@ Tudo isso em ambiente containerizado e reprodutível.
 
 Os dados públicos do Tesouro Direto são disponibilizados em múltiplos arquivos CSV e não estão estruturados para análise direta.
 
-Este projeto resolve:
+### Este projeto resolve:
 
 ✔ Consolidação de múltiplas fontes  
 ✔ Padronização de datas e valores monetários  
@@ -36,17 +36,17 @@ Este projeto resolve:
 
 ## 🏗 Arquitetura da Solução
 
-CSV (dados brutos)
-↓
-Concatenação
-↓
-Pipeline ETL (Pandas)
-↓
-PostgreSQL (Banco do Projeto)
-↓
-Orquestração via Airflow
-↓
-Ambiente Containerizado
+- CSV (dados brutos)
+- ↓
+- Concatenação
+- ↓
+- Pipeline ETL (Pandas)
+- ↓
+- PostgreSQL (Banco do Projeto)
+- ↓
+- Orquestração via Airflow
+- ↓
+- Ambiente Containerizado
 
 
 ---
