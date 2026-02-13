@@ -76,14 +76,14 @@ Responsável por armazenar:
 
 ---
 
-### 🔹 Banco do Projeto
+## 🔹 Banco do Projeto
 
 Banco onde o pipeline grava as tabelas tratadas:
 
 - `titulo`  
 - `movimentacao`  
 
-📌 **Importante:**  
+### 📌 **Importante:**  
 O nome do banco do projeto deve ser definido nas variáveis de ambiente.  
 No desenvolvimento deste projeto foi utilizado o banco:
 
@@ -95,11 +95,11 @@ Certifique-se de que o banco esteja criado e configurado corretamente no ambient
 
 ### 1️⃣ Clone o repositório
 
-git clone https://github.com/JhonDX/fastapi-docker.git
-cd fastapi-docker
+- git clone https://github.com/JhonDX/fastapi-docker.git
+- cd fastapi-docker
 
 ### 2️⃣ Configure as variáveis de ambiente
-# Defina corretamente:
+### Defina corretamente:
 
 - Credenciais do banco
 
@@ -109,7 +109,7 @@ cd fastapi-docker
 
 - Configuração do Airflow
 
-📌 O banco do projeto deve estar configurado (ex: tesouro).
+### 📌 O banco do projeto deve estar configurado (ex: tesouro).
 
 ### 3️⃣ Suba os containers
 
