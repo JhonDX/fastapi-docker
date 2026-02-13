@@ -1,4 +1,3 @@
 *db
-.env*
-.env
+.env_local
 notbooks_apoio
