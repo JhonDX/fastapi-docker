@@ -89,32 +89,7 @@ No desenvolvimento deste projeto foi utilizado o banco:
 
 tesouro
 
-
 Certifique-se de que o banco esteja criado e configurado corretamente no ambiente Docker antes de executar a DAG.
-
----
-
-## 📂 Estrutura do Projeto
-
-fastapi-docker/
-│
-├── concat_csvs/
-│ └── concat.py
-│
-├── dags/
-│ └── dag.py
-│
-├── datasets/
-│ └── tesouro_direto.csv
-│
-├── pipeline/
-│ └── pipeline_projeto.py
-│
-├── docker-compose.yaml
-└── README.md
-
-
----
 
 ## ⚙️ Como Executar o Projeto
 
@@ -171,21 +146,21 @@ cd fastapi-docker
 ## 👥 Colaboração
 - Projeto desenvolvido em parceria simulando ambiente real de mercado:
 
-👨‍💻 Data Engineering
+### 👨‍💻 Data Engineering
 - Desenvolvimento do pipeline ETL
 
 - Modelagem relacional
 
 - Implementação da DAG
 
- ⚙️ DevOps
+### ⚙️ DevOps
 - Containerização
 
 - Infraestrutura Docker
 
 - Configuração do Airflow
 
-📈 Possíveis Evoluções
+### 📈 Possíveis Evoluções
 - Camada de API para exposição dos dados
 
 - Monitoramento e alertas
@@ -196,7 +171,7 @@ cd fastapi-docker
 
 - Data Quality Checks
 
-💡 Principais Aprendizados
+### 💡 Principais Aprendizados
 - Construção de pipeline end-to-end
 
 - Integração entre Airflow e PostgreSQL
